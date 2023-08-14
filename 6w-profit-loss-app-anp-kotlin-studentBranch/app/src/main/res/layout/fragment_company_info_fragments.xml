@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg3"
+        tools:context=".MainActivity">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Company Details"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/etCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="75dp"
+            android:ems="10"
+            android:hint="Enter Company Name" />
+        <EditText
+            android:id="@+id/etGst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etCompanyName"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:hint="Enter GST Number" />
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etGst"
+            android:layout_alignStart="@id/etGst"
+            android:layout_marginTop="10dp"
+            android:text="ADD" />
+
+    </RelativeLayout>
+</layout>

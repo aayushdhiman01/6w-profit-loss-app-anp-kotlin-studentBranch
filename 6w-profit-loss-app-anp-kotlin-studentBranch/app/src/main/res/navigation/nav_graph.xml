@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.business.profitlossapp.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/companyInfoFragments"
+        android:name="com.business.profitlossapp.CompanyInfoFragments"
+        android:label="CompanyInfoFragments" />
+    <fragment
+        android:id="@+id/goodsProfitFragment"
+        android:name="com.business.profitlossapp.GoodsProfitFragment"
+        android:label="GoodsProfitFragment" />
+    <fragment
+        android:id="@+id/goodsList"
+        android:name="com.business.profitlossapp.GoodsList"
+        android:label="GoodsList" />
+</navigation>
