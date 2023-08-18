@@ -1,4 +1,4 @@
-# 6w-profit-loss-app-pn
+# profit-loss-app
 
 This app will will show the profit and loss of a company
 
